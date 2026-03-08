@@ -43,6 +43,10 @@
     "doc-generator": {
       "command": "python",
       "args": ["mcp_servers/doc_generator_server.py", "--output", "./docs"]
+    },
+    "google-maps": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-google-maps@2025.1.1"]
     }
   }
 }

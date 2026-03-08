@@ -36,6 +36,10 @@
     "migration-helper": {
       "command": "node",
       "args": ["mcp_servers/migration_helper_server.js"]
+    },
+    "google-drive": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-gdrive@2025.1.1"]
     }
   }
 }
